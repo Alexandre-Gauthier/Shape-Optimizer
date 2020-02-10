@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{D93C8074-A6B2-4250-9755-469872EF5445}</ProjectGuid>
+    <RootNamespace>ProjectShapeOptimizer</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\algo_genetique_cvm\Console\Console.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\Console\ConsoleColor.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\Console\ConsoleContext.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\Console\ConsoleImage.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\Console\ConsoleKeyEvent.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\Console\ConsoleKeyFilter.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\Console\ConsoleKeyFilterAny.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\Console\ConsoleKeyFilterDown.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\Console\ConsoleKeyFilterModifiers.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\Console\ConsoleKeyFilterUp.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\Console\ConsoleKeyReader.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\Console\ConsolePixel.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\Console\ConsoleWriter.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\h\Canevas.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\h\Chromosome.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\h\Circle.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\h\CircleSolution.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\h\Controller.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\h\Crossover.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\h\CrossoverChromoSinglePoint.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\h\FitnessStatistics.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\h\GAEngine.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\h\GAParameters.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\h\GeometryUtils.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\h\Mutator.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\h\MutatorChromo.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\h\Obstacle.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\h\OrthoRectSolution.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\h\Point.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\h\Polygon.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\h\PolygonSolution.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\h\Population.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\h\PopulationEngine.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\h\RandomUtil.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\h\Rect.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\h\Selector.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\h\SelectorRankwise.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\h\SelectorRouletteWheel.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\h\Shape.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\h\ShapeOptimizer.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\h\ShapeSolution.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\h\Size.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\h\Solution.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\h\SOParameters.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\h\State.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\h\StateMachine.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\h\StateMenu.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\h\Surface.h" />
+    <ClInclude Include="..\..\algo_genetique_cvm\h\Transition.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\algo_genetique_cvm\Console\Console.cpp" />
+    <ClCompile Include="..\..\algo_genetique_cvm\Console\ConsoleColor.cpp" />
+    <ClCompile Include="..\..\algo_genetique_cvm\Console\ConsoleContext.cpp" />
+    <ClCompile Include="..\..\algo_genetique_cvm\Console\ConsoleImage.cpp" />
+    <ClCompile Include="..\..\algo_genetique_cvm\Console\ConsoleKeyEvent.cpp" />
+    <ClCompile Include="..\..\algo_genetique_cvm\Console\ConsoleKeyFilterDown.cpp" />
+    <ClCompile Include="..\..\algo_genetique_cvm\Console\ConsoleKeyFilterModifiers.cpp" />
+    <ClCompile Include="..\..\algo_genetique_cvm\Console\ConsoleKeyFilterUp.cpp" />
+    <ClCompile Include="..\..\algo_genetique_cvm\Console\ConsoleKeyReader.cpp" />
+    <ClCompile Include="..\..\algo_genetique_cvm\Console\ConsolePixel.cpp" />
+    <ClCompile Include="..\..\algo_genetique_cvm\Console\ConsoleWriter.cpp" />
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\Canevas.cpp" />
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\Chromosome.cpp" />
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\Circle.cpp" />
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\CircleSolution.cpp" />
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\Controller.cpp" />
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\Crossover.cpp" />
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\CrossoverChromoSinglePoint.cpp" />
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\FitnessStatistics.cpp" />
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\GAEngine.cpp" />
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\GeometryUtils.cpp" />
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\Mutator.cpp" />
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\MutatorChromo.cpp" />
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\Obstacle.cpp" />
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\OrthoRectSolution.cpp" />
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\Point.cpp" />
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\Polygon.cpp" />
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\PolygonSolution.cpp" />
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\Population.cpp" />
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\PopulationEngine.cpp" />
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\Project.cpp" />
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\RandomUtil.cpp" />
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\Rect.cpp" />
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\Selector.cpp" />
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\SelectorRankwise.cpp" />
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\SelectorRouletteWheel.cpp" />
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\Shape.cpp" />
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\ShapeOptimizer.cpp" />
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\ShapeSolution.cpp" />
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\Size.cpp" />
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\Solution.cpp" />
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\State.cpp" />
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\StateMachine.cpp" />
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\StateMenu.cpp" />
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\Surface.cpp" />
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\Transition.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

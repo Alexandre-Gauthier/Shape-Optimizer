@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\Console">
+      <UniqueIdentifier>{98d7849c-2ac0-4bd1-b2cd-7d4f9dcf87e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Console">
+      <UniqueIdentifier>{67b79e09-f911-464f-bcf9-10e5f71e8ae3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\StateMachine">
+      <UniqueIdentifier>{6697fc14-fccb-4b9a-91af-7828a0d4cea9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\StateMachine">
+      <UniqueIdentifier>{7fd25130-bca2-4c1f-8568-e3d4dd88d933}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Model">
+      <UniqueIdentifier>{aa728ca8-1644-4b29-a51d-043f6cb13310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Model\GA">
+      <UniqueIdentifier>{20fe898b-73fe-43d4-8cc3-9eba506a6e70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Model\ShapeOptimizer">
+      <UniqueIdentifier>{c829a150-a5ba-4d55-996f-5184fc84859f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Model\ShapeOptimizer\Geometry">
+      <UniqueIdentifier>{bc157aba-dc8e-4db8-bb6e-a5fd5be0ba98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Model">
+      <UniqueIdentifier>{0cb3ee32-50d7-410d-b59b-950e0ea7b4ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Model\GA">
+      <UniqueIdentifier>{83fa016c-c982-4e0d-a435-540f344c8526}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Model\ShapeOptimizer">
+      <UniqueIdentifier>{50c87f3e-1b21-4cb0-ab8b-64508442ebe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Model\ShapeOptimizer\Geometry">
+      <UniqueIdentifier>{110eb8f7-bdd4-4468-8f3f-f2a0ab659b3d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\algo_genetique_cvm\Console\ConsoleWriter.h">
+      <Filter>Fichiers d%27en-tête\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\Console\Console.h">
+      <Filter>Fichiers d%27en-tête\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\Console\ConsoleColor.h">
+      <Filter>Fichiers d%27en-tête\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\Console\ConsoleContext.h">
+      <Filter>Fichiers d%27en-tête\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\Console\ConsoleImage.h">
+      <Filter>Fichiers d%27en-tête\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\Console\ConsoleKeyEvent.h">
+      <Filter>Fichiers d%27en-tête\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\Console\ConsoleKeyFilter.h">
+      <Filter>Fichiers d%27en-tête\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\Console\ConsoleKeyFilterAny.h">
+      <Filter>Fichiers d%27en-tête\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\Console\ConsoleKeyFilterDown.h">
+      <Filter>Fichiers d%27en-tête\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\Console\ConsoleKeyFilterModifiers.h">
+      <Filter>Fichiers d%27en-tête\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\Console\ConsoleKeyFilterUp.h">
+      <Filter>Fichiers d%27en-tête\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\Console\ConsoleKeyReader.h">
+      <Filter>Fichiers d%27en-tête\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\Console\ConsolePixel.h">
+      <Filter>Fichiers d%27en-tête\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\h\Canevas.h">
+      <Filter>Fichiers d%27en-tête\Model\ShapeOptimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\h\Chromosome.h">
+      <Filter>Fichiers d%27en-tête\Model\GA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\h\Controller.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\h\CircleSolution.h">
+      <Filter>Fichiers d%27en-tête\Model\ShapeOptimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\h\Solution.h">
+      <Filter>Fichiers d%27en-tête\Model\GA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\h\Crossover.h">
+      <Filter>Fichiers d%27en-tête\Model\GA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\h\CrossoverChromoSinglePoint.h">
+      <Filter>Fichiers d%27en-tête\Model\GA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\h\FitnessStatistics.h">
+      <Filter>Fichiers d%27en-tête\Model\GA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\h\GAEngine.h">
+      <Filter>Fichiers d%27en-tête\Model\GA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\h\GAParameters.h">
+      <Filter>Fichiers d%27en-tête\Model\GA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\h\Mutator.h">
+      <Filter>Fichiers d%27en-tête\Model\GA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\h\MutatorChromo.h">
+      <Filter>Fichiers d%27en-tête\Model\GA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\h\Population.h">
+      <Filter>Fichiers d%27en-tête\Model\GA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\h\PopulationEngine.h">
+      <Filter>Fichiers d%27en-tête\Model\GA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\h\Selector.h">
+      <Filter>Fichiers d%27en-tête\Model\GA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\h\SelectorRankwise.h">
+      <Filter>Fichiers d%27en-tête\Model\GA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\h\SelectorRouletteWheel.h">
+      <Filter>Fichiers d%27en-tête\Model\GA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\h\Point.h">
+      <Filter>Fichiers d%27en-tête\Model\ShapeOptimizer\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\h\Rect.h">
+      <Filter>Fichiers d%27en-tête\Model\ShapeOptimizer\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\h\Size.h">
+      <Filter>Fichiers d%27en-tête\Model\ShapeOptimizer\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\h\RandomUtil.h">
+      <Filter>Fichiers d%27en-tête\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\h\Obstacle.h">
+      <Filter>Fichiers d%27en-tête\Model\ShapeOptimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\h\ShapeSolution.h">
+      <Filter>Fichiers d%27en-tête\Model\ShapeOptimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\h\SOParameters.h">
+      <Filter>Fichiers d%27en-tête\Model\ShapeOptimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\h\ShapeOptimizer.h">
+      <Filter>Fichiers d%27en-tête\Model\ShapeOptimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\h\StateMenu.h">
+      <Filter>Fichiers d%27en-tête\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\h\Transition.h">
+      <Filter>Fichiers d%27en-tête\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\h\State.h">
+      <Filter>Fichiers d%27en-tête\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\h\StateMachine.h">
+      <Filter>Fichiers d%27en-tête\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\h\Surface.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\h\Shape.h">
+      <Filter>Fichiers d%27en-tête\Model\ShapeOptimizer\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\h\Circle.h">
+      <Filter>Fichiers d%27en-tête\Model\ShapeOptimizer\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\h\Polygon.h">
+      <Filter>Fichiers d%27en-tête\Model\ShapeOptimizer\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\h\PolygonSolution.h">
+      <Filter>Fichiers d%27en-tête\Model\ShapeOptimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\h\OrthoRectSolution.h">
+      <Filter>Fichiers d%27en-tête\Model\ShapeOptimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\algo_genetique_cvm\h\GeometryUtils.h">
+      <Filter>Fichiers d%27en-tête\Model\ShapeOptimizer\Geometry</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\algo_genetique_cvm\Console\ConsoleKeyFilterModifiers.cpp">
+      <Filter>Fichiers sources\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo_genetique_cvm\Console\ConsoleKeyFilterUp.cpp">
+      <Filter>Fichiers sources\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo_genetique_cvm\Console\ConsoleKeyReader.cpp">
+      <Filter>Fichiers sources\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo_genetique_cvm\Console\ConsolePixel.cpp">
+      <Filter>Fichiers sources\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo_genetique_cvm\Console\ConsoleWriter.cpp">
+      <Filter>Fichiers sources\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo_genetique_cvm\Console\Console.cpp">
+      <Filter>Fichiers sources\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo_genetique_cvm\Console\ConsoleColor.cpp">
+      <Filter>Fichiers sources\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo_genetique_cvm\Console\ConsoleContext.cpp">
+      <Filter>Fichiers sources\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo_genetique_cvm\Console\ConsoleImage.cpp">
+      <Filter>Fichiers sources\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo_genetique_cvm\Console\ConsoleKeyEvent.cpp">
+      <Filter>Fichiers sources\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo_genetique_cvm\Console\ConsoleKeyFilterDown.cpp">
+      <Filter>Fichiers sources\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\StateMachine.cpp">
+      <Filter>Fichiers sources\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\StateMenu.cpp">
+      <Filter>Fichiers sources\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\Transition.cpp">
+      <Filter>Fichiers sources\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\State.cpp">
+      <Filter>Fichiers sources\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\Controller.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\Project.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\Surface.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\Solution.cpp">
+      <Filter>Fichiers sources\Model\GA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\Chromosome.cpp">
+      <Filter>Fichiers sources\Model\GA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\Crossover.cpp">
+      <Filter>Fichiers sources\Model\GA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\CrossoverChromoSinglePoint.cpp">
+      <Filter>Fichiers sources\Model\GA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\FitnessStatistics.cpp">
+      <Filter>Fichiers sources\Model\GA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\GAEngine.cpp">
+      <Filter>Fichiers sources\Model\GA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\Mutator.cpp">
+      <Filter>Fichiers sources\Model\GA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\MutatorChromo.cpp">
+      <Filter>Fichiers sources\Model\GA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\Population.cpp">
+      <Filter>Fichiers sources\Model\GA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\PopulationEngine.cpp">
+      <Filter>Fichiers sources\Model\GA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\Selector.cpp">
+      <Filter>Fichiers sources\Model\GA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\SelectorRankwise.cpp">
+      <Filter>Fichiers sources\Model\GA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\SelectorRouletteWheel.cpp">
+      <Filter>Fichiers sources\Model\GA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\Canevas.cpp">
+      <Filter>Fichiers sources\Model\ShapeOptimizer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\CircleSolution.cpp">
+      <Filter>Fichiers sources\Model\ShapeOptimizer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\Obstacle.cpp">
+      <Filter>Fichiers sources\Model\ShapeOptimizer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\ShapeOptimizer.cpp">
+      <Filter>Fichiers sources\Model\ShapeOptimizer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\ShapeSolution.cpp">
+      <Filter>Fichiers sources\Model\ShapeOptimizer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\Size.cpp">
+      <Filter>Fichiers sources\Model\ShapeOptimizer\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\Point.cpp">
+      <Filter>Fichiers sources\Model\ShapeOptimizer\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\Rect.cpp">
+      <Filter>Fichiers sources\Model\ShapeOptimizer\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\RandomUtil.cpp">
+      <Filter>Fichiers sources\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\Shape.cpp">
+      <Filter>Fichiers sources\Model\ShapeOptimizer\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\Circle.cpp">
+      <Filter>Fichiers sources\Model\ShapeOptimizer\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\Polygon.cpp">
+      <Filter>Fichiers sources\Model\ShapeOptimizer\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\PolygonSolution.cpp">
+      <Filter>Fichiers sources\Model\ShapeOptimizer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\OrthoRectSolution.cpp">
+      <Filter>Fichiers sources\Model\ShapeOptimizer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo_genetique_cvm\cpp\GeometryUtils.cpp">
+      <Filter>Fichiers sources\Model\ShapeOptimizer\Geometry</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
